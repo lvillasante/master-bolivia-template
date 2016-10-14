@@ -1,0 +1,27 @@
+# humanstxt.org/ES
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Web dev:Luis Villasante 
+	email: luis.villasante[at]gmail.com
+	Twitter: @villasanteL
+	From:La Paz, Bolivia
+
+# THANKS
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, 
+    CSS2 & CSS3 
+    jQuery 1.12.4 
+    Font Awesome 4.6.3
+    Boostrap 3.3.6
+
+# SITE
+	Create: 2016/02/04
+	Last update:2016/07/04
+	Language: Spanish
+	Doctype: HTML5
+	IDE: Sublime Text 2 / 3
