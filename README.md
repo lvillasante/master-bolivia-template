@@ -3,7 +3,7 @@ Template MASTER - Imagen y aplicación gráfica en sitios Web de Bolivia
 
 Este template pretende seguir, la "Guia de estandarización de imagen y aplicaciones graficas en sitios Web" del estado Plurinacional de Bolivia. Si bien se respeto toda la estructura básica, se hizo modificaciones en los tamaños, tanto de los elementos estructurales basicos (cabecera, cuerpo, banner lateral y pie de pagina), asi como tambien se modifico los elementos que se incluyen en cada uno de los anteriores (logos, iconos background, etc). 
 
-La guía no se refiere a la compativilidad de visialuzacion con dispositivos móviles, pero en esta implementación se la incluye utilizando el frameword de Frontend Bootstrap [<a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a>] y de esta forma haciendo Responsive.
+La guía no se refiere a la compativilidad de visialuzacion con dispositivos móviles, pero en esta implementación se la incluye utilizando el frameword de Frontend Bootstrap [<a href="http://getbootstrap.com/" target="_blank">getbootstrap.com/</a>] y de esta forma haciendo Responsive.
 
 Para la parte de iconografía, se esta utilizando FontAwesome [http://fontawesome.io/] ya que al tratarse de iconos basados en fuentes tipográficas, su peso es muy reducido y su manipulación / personalización es sencilla desde CSS.
 
