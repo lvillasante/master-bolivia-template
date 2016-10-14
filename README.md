@@ -1,14 +1,15 @@
 Template MASTER - Imagen y aplicación gráfica en sitios Web de Bolivia
 ======================================================================
 
-Este template pretende seguir, la "Guia de estandarización de imagen y aplicaciones graficas en sitios Web" del estado Plurinacional de Bolivia. Si bien se respeto toda la estructura básica, se hizo modificaciones en los tamaños, tanto de los elementos estructurales basicos (cabecera, cuerpo, banner lateral y pie de pagina), asi como tambien se modifico los elementos que se incluyen en cada uno de los anteriores. 
+Este template pretende seguir, la "Guia de estandarización de imagen y aplicaciones graficas en sitios Web" del estado Plurinacional de Bolivia. Si bien se respeto toda la estructura básica, se hizo modificaciones en los tamaños, tanto de los elementos estructurales basicos (cabecera, cuerpo, banner lateral y pie de pagina), asi como tambien se modifico los elementos que se incluyen en cada uno de los anteriores (logos, iconos background, etc). 
 
-La guia no se refiere a la compativilidad de visialuzacion con dispositivos móviles, pero en esta implementacion se la incluye utilizando el frameword de Frontend Bootstrap [http://getbootstrap.com/] .
+La guía no se refiere a la compativilidad de visialuzacion con dispositivos móviles, pero en esta implementación se la incluye utilizando el frameword de Frontend Bootstrap [http://getbootstrap.com/] y de esta forma haciendo Responsive.
 
-Para la parte de iconografia, se esta utilizando FontAwesome [http://fontawesome.io/] ya que al tratarse de iconos basados en fuentes tipograficas, su peso es muy reducido y su manipulacion y personalizacion es sencilla desde CSS.
+Para la parte de iconografía, se esta utilizando FontAwesome [http://fontawesome.io/] ya que al tratarse de iconos basados en fuentes tipográficas, su peso es muy reducido y su manipulación / personalización es sencilla desde CSS.
 
 [ACTUALIZACION]
-La "Guia de Estandares de imagen y aplicacion grafica en sitios Web" ya no se encuntra disponible en la ultima actualización de la página web de la ADSIB [https://adsib.gob.bo], pero se puede encontrar en otras funetes:
+La "Guía de Estandares de imagen y aplicación gráfica en sitios Web" ya no se encuntra disponible en la última actualización de la página web de la ADSIB [https://adsib.gob.bo], pero se puede encontrar en otras fuentes:
+
 * ADSIB:
 https://adsib.gob.bo/IMG/pdf/geiag_sw1-2.pdf
 
@@ -19,7 +20,7 @@ http://www.miplataforma.gob.bo/uploads/marcolegal/ge-sw4b64e3d5.pdf
 http://web.archive.org/web/20160318211853/http://adsib.gob.bo/adsibnueva/guia.php
 
 
-![Alt text](/image/tapa-guia-adsib.jpg?raw=true "Tapa de la Guía")
+![Alt text](/images/tapa-guia-adsib.jpg?raw=true "Tapa de la Guía")
 
 ## Tabla de contenido
 
