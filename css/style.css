@@ -2,48 +2,42 @@
 /*
  
  * /------------------------------------/
-    enbolivia.com s.r.l.
+    Master template Bolivia
  * /------------------------------------/
  
  * /------------------------------------/
-	Proyect		: ADSIB - Guia Sitios Web  
-	Description	: Design based on CSS 3
+	Proyect		: Master template Bolivia  
+	Description	: Design based on SASS - CSS 3
 	Designer   	: Luis Villasante
 	E - mail   	: luis.villasante[at]gmail.com
 	Filename   	: style.css
-	Version    	: 1.9
+	Version    	: 2.4
 	Date       	: Aug 20, 2015 - 0200
-	Edit-review	: Jul 05, 2016 - 0405
+	Edit-review	: Nov 01, 2017 - 0405
  * /------------------------------------/
  
  */
 body {
   background: #666666 url("../images/background.png") repeat scroll top left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .container {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #666666;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 h1 {
-  font-size: 21px;
-}
+  font-size: 21px; }
 
 h2 {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 h3 {
   font-size: 14px;
-  text-transform: none;
-}
+  text-transform: none; }
 
 /*
 /------------------------------------/
@@ -54,8 +48,9 @@ h3 {
   height: 160px;
   text-align: center;
   padding-left: 10px;
-  padding-right: 10px;
-}
+  padding-right: 10px; }
+  .container .logo img {
+    display: inline-block; }
 
 /*
 /------------------------------------/
@@ -69,79 +64,66 @@ h3 {
   background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
   background: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
   background: -ms-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 );
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .container .banner {
   min-height: 100px;
-  /*height: 100px;	*/
-}
+  /*height: 100px;	*/ }
 
 .container .idioma {
   height: 20px;
-  margin-top: px;
-}
+  margin-top: px; }
 
 .container .idioma ul {
   list-style: none;
   margin: 0;
-  /*float: right;*/
-}
+  /*float: right;*/ }
 
 .container .idioma ul li {
   display: inline-block;
   /*float: left;*/
   padding: 0 10px;
-  border-right: 1px solid;
-}
+  border-right: 1px solid; }
 
 .container .idioma ul li a {
-  color: #494949;
-}
+  color: #494949; }
 
 .container .idioma ul li a:hover {
-  color: #e61414;
-}
+  color: #e61414; }
 
 .container .idioma ul .selected a {
   color: #e61414;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .container .banner h1 {
   font-size: 30px;
   font-weight: bold;
   line-height: 1em;
   margin: 15px 0 0 0;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .container .banner h2 {
   font-size: 1.8em;
   font-weight: bold;
   line-height: 1em;
-  margin: 4px 0 0 0;
-}
+  margin: 4px 0 0 0; }
 
 .container .banner .sitemap {
-  margin: 10px 0 15px;
-}
+  margin: 10px 0 15px; }
 
 .container .banner .sitemap a {
-  color: #c8c8c8;
-}
+  color: #c8c8c8; }
 
 .container .banner .busqueda {
   margin-left: 0;
-  /*padding-left: 0;*/
-}
+  /*padding-left: 0;*/ }
 
 .container .banner .busqueda form {
-  /*margin: 0;*/
-}
+  /*margin: 0;*/ }
 
 /*
 /------------------------------------/
@@ -153,14 +135,12 @@ h3 {
   /*height: 40px;*/
   min-height: 40px;
   margin-bottom: 0;
-  min-height: 40px;
-}
+  min-height: 40px; }
 
 .container #main_menu .container-fluid,
 .container #main_menu .container-fluid .navbar-collapse {
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .container .navbar.navbar-default {
   background: #ffffff;
@@ -169,13 +149,14 @@ h3 {
   background: -webkit-linear-gradient(top, #c8c8c8 0%, #ffffff 100%);
   background: -o-linear-gradient(top, #c8c8c8 0%, #ffffff 100%);
   background: -ms-linear-gradient(top, #c8c8c8 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c8c8c8), to(#ffffff));
   background: linear-gradient(to bottom, #c8c8c8 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#ffffff',GradientType=0 );
   border: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .navbar .nav > li > a {
   border-right: 1px solid #CCCCCC;
@@ -184,40 +165,34 @@ h3 {
   text-shadow: none;
   text-transform: uppercase;
   padding-top: 10px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .navbar .nav > li > a:hover {
-  background-color: #ccc;
-}
+  background-color: #ccc; }
 
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
   background-color: #ccc;
-  box-shadow: none;
-}
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 #main_menu nav ul.nav li.home a,
 #main_menu nav ul.nav li:first-child a {
   padding-top: 6px;
-  padding-bottom: 5px;
-}
+  padding-bottom: 5px; }
 
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  border-color: #969EA5;
-}
+  border-color: #969EA5; }
 
 /* Menu desplegable*/
 .dropdown-menu > li > a {
-  color: #494949;
-}
+  color: #494949; }
 
 .navbar .nav > li > .dropdown-menu {
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
@@ -227,8 +202,8 @@ h3 {
   text-decoration: none;
   background-color: #ccc;
   background-image: none;
-  filter: none;
-}
+  -webkit-filter: none;
+  filter: none; }
 
 /*
 /------------------------------------/
@@ -237,8 +212,7 @@ h3 {
 */
 .container #main {
   padding-right: 0;
-  margin-right: 0;
-}
+  margin-right: 0; }
 
 /*@media (max-width: 767px) {
 	.container #main{
@@ -247,62 +221,50 @@ h3 {
 	}	
 }*/
 .container #main .contenido {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .container #main .contenido p {
-  text-align: justify;
-}
+  text-align: justify; }
 
 .contenido .banner_central {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .contenido .banner_central img {
   height: auto;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 /*--- $breadcrumbs ---*/
 .contenido .breadcrumbs {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .contenido .breadcrumbs ul.breadcrumb {
   border-radius: 0;
   padding: 5px 15px;
-  margin: 0;
-}
+  margin: 0; }
 
 .breadcrumb > li + li:before {
   content: "/\00a0";
   padding: 0 5px;
-  color: #ccc;
-}
+  color: #ccc; }
 
 /*--- $Lateral ---*/
 .container #main .lateral {
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .container #main .lateral img {
   height: auto;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .container #main .lateral .link_interes {
-  background-color: #f2f2f2;
-}
+  background-color: #f2f2f2; }
 
 .container #main .lateral .link_interes ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .container #main .lateral .link_interes ul li {
-  border-bottom: 1px solid #ccc;
-}
+  border-bottom: 1px solid #ccc; }
 
 .container #main .lateral .link_interes ul li.title {
   color: #666666;
@@ -310,8 +272,7 @@ h3 {
   font-weight: bold;
   line-height: 40px;
   text-align: center;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .container #main .lateral .link_interes ul li a {
   background-image: url("../images/background_botonera.png");
@@ -323,25 +284,21 @@ h3 {
   line-height: 16px;
   padding: 10px 36px 10px 0;
   text-align: right;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .container #main .lateral .link_interes ul li a:hover {
   background-color: #ccc;
-  color: #333;
-}
+  color: #333; }
 
 .container #main .lateral .link_gobierno ul {
   background-color: #fff;
   list-style: none;
   margin: 0;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .container #main .lateral .link_gobierno ul li {
   background: transparent url("../images/Fondo_Botonera_Lateral_de_Gobierno.png") no-repeat scroll 10px center;
-  border-bottom: 1px solid #ccc;
-}
+  border-bottom: 1px solid #ccc; }
 
 .container #main .lateral .link_gobierno ul li a {
   background: transparent url("../images/background_botonera.png") no-repeat scroll 1px center;
@@ -351,13 +308,11 @@ h3 {
   font-weight: bold;
   display: block;
   padding: 14px 0 14px 30px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .container #main .lateral .marca_pais {
   margin: 10px;
-  text-align: center;
-}
+  text-align: center; }
 
 /*
 /------------------------------------/
@@ -370,8 +325,7 @@ div#two_containers div#center_inside {
   /*850*/
   height: auto !important;
   width: 538px;
-  /*560*/
-}
+  /*560*/ }
 
 /*
 /------------------------------------/
@@ -386,25 +340,20 @@ footer #pie_pagina {
   font-size: 11px;
   line-height: 13px;
   padding-top: 25px;
-  padding-bottom: 5px;
-}
+  padding-bottom: 5px; }
 
 footer #pie_pagina a {
-  color: #005580;
-}
+  color: #005580; }
 
 footer #pie_pagina a:hover {
-  color: #0088cc;
-}
+  color: #0088cc; }
 
 footer #pie_pagina #politicas {
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 footer #pie_pagina #validacion {
   margin-left: 0px;
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
 /*
 /------------------------------------/
@@ -414,124 +363,83 @@ footer #pie_pagina #validacion {
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: 767px) {
-  .navbar .nav li a {
-    background-color: red;
-  }
   .logo img.img-responsive {
-    display: inline-block;
-  }
+    display: inline-block; }
   .container .idioma ul {
     text-align: center;
-    padding: 0;
-  }
+    padding: 0; }
   .container .idioma ul li {
-    display: inline;
-  }
+    display: inline; }
   .banner .sitemap,
   .banner form,
   .banner .titulo {
     margin-bottom: 10px;
-    text-align: center;
-  }
+    text-align: center; }
   .navbar .nav li a {
-    background-color: red;
     font-size: 12px;
     padding-right: 12px;
-    padding-left: 12px;
-  }
+    padding-left: 12px; }
   .container #main_menu .container-fluid,
   .container #main_menu .container-fluid .navbar-collapse {
     padding-left: 15px;
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
   .banner .titulo, .banner .logos {
     margin-bottom: 10px;
-    text-align: center;
-  }
+    text-align: center; }
   .navbar-collapse {
-    max-height: 400px;
-  }
+    max-height: 400px; }
   .navbar .nav li a {
     font-size: 12px;
     padding-left: 12px;
-    padding-right: 12px;
-  }
+    padding-right: 12px; }
   .container #main_menu .container-fluid, .container #main_menu .container-fluid .navbar-collapse {
     padding-left: 15px;
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
   footer #pie_pagina {
-    text-align: center;
-  }
+    text-align: center; }
   footer #pie_pagina #politicas, footer #pie_pagina #validacion {
-    margin-top: 15px;
-  }
+    margin-top: 15px; }
   footer #pie_pagina .financiadores {
-    margin-top: 8px;
-  }
+    margin-top: 8px; }
   footer #pie_pagina .financiadores img {
-    margin-bottom: 5px;
-  }
-}
+    margin-bottom: 5px; } }
 
 @media (max-width: 767px) {
   .banner .titulo,
   .banner .logos {
     margin-bottom: 10px;
-    text-align: center;
-  }
+    text-align: center; }
   .navbar .nav li a {
-    background-color: red;
     font-size: 12px;
     padding-right: 12px;
-    padding-left: 12px;
-  }
+    padding-left: 12px; }
   .container #main_menu .container-fluid,
   .container #main_menu .container-fluid .navbar-collapse {
     padding-left: 15px;
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
   footer #pie_pagina {
-    text-align: center;
-  }
+    text-align: center; }
   footer #pie_pagina #politicas,
   footer #pie_pagina #validacion {
-    margin-top: 15px;
-  }
+    margin-top: 15px; }
   footer #pie_pagina .financiadores {
     /*text-align: center;*/
-    margin-top: 8px;
-  }
+    margin-top: 8px; }
   footer #pie_pagina .financiadores img {
-    margin-bottom: 5px;
-  }
-}
+    margin-bottom: 5px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .banner .titulo,
   .banner .logos {
     margin-bottom: 10px;
-    text-align: center;
-  }
+    text-align: center; }
   .navbar .nav li a {
-    background-color: yellow;
     font-size: 11px;
-    padding: 8px 15px 8px;
-  }
-}
+    padding: 8px 15px 8px; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar .nav li a {
-    background-color: green;
     font-size: 12px;
-    padding: 9px 13px 8px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .navbar .nav li a {
-    background-color: blue;
-  }
-}
+    padding: 9px 13px 8px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,11 +2,14 @@
 // Base styles
 //
 
-.container 
+.container{ 
     .logo{
         height: 160px;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
+        img{
+        	display: inline-block;
+        }
     }
 }  

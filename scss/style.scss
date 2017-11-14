@@ -1,18 +1,18 @@
 /*
  
  * /------------------------------------/
-    enbolivia.com s.r.l.
+    Master template Bolivia
  * /------------------------------------/
  
  * /------------------------------------/
-	Proyect		: ADSIB - Guia Sitios Web  
-	Description	: Design based on CSS 3
+	Proyect		: Master template Bolivia  
+	Description	: Design based on SASS - CSS 3
 	Designer   	: Luis Villasante
 	E - mail   	: luis.villasante[at]gmail.com
 	Filename   	: style.css
-	Version    	: 1.9
+	Version    	: 2.4
 	Date       	: Aug 20, 2015 - 0200
-	Edit-review	: Jul 05, 2016 - 0405
+	Edit-review	: Nov 01, 2017 - 0405
  * /------------------------------------/
  
  */
@@ -373,7 +373,7 @@ footer #pie_pagina #validacion{
 
 @media (max-width: 767px) {
 	.navbar .nav li a{
-		background-color: red;
+		// background-color: red;
 	}
 	.logo img.img-responsive{display: inline-block; }
 	.container .idioma ul { text-align: center; padding: 0}
@@ -385,7 +385,7 @@ footer #pie_pagina #validacion{
 		text-align: center;
 	}
 	.navbar .nav li a{
-		background-color: red;
+		// background-color: red;
 		font-size: 12px;
 		padding-right: 12px;
 		padding-left: 12px;
@@ -434,7 +434,7 @@ footer #pie_pagina #validacion{
 		text-align: center;
 	}
 	.navbar .nav li a{
-		background-color: red;
+		// background-color: red;
 		font-size: 12px;
 		padding-right: 12px;
 		padding-left: 12px;
@@ -467,14 +467,14 @@ footer #pie_pagina #validacion{
 		text-align: center;
 	}
 	.navbar .nav li a{
-		background-color: yellow;
+		// background-color: yellow;
 		font-size: 11px;
     	padding: 8px 15px 8px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar .nav li a{
-		background-color: green;
+		// background-color: green;
 		font-size: 12px;
     	padding: 9px 13px 8px;
 	}
@@ -482,6 +482,6 @@ footer #pie_pagina #validacion{
 
 @media (min-width: 1200px) {
 	.navbar .nav li a{
-		background-color: blue;
+		// background-color: blue;
 	}
 }
